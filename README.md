@@ -14,14 +14,13 @@ This repository contains an SQL script designed to clean and prepare the NYC Aff
 ## Query Overview
 
 The SQL script (`NYC_affordable_housing.sql`) in this repository performs the following operations on the dataset:
-<p>
-  &nbsp;&nbsp;&nbsp;&nbsp;-**Renaming**: Renames table and column names to more usable formats.<br>
+
+  &nbsp;&nbsp;&nbsp;&nbsp;**-Renaming**: Renames table and column names to more usable formats.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;-**Reformatting**: Includes tasks such as changing data types, formatting dates, and converting 'Y/N' to 'Yes/No.’<br>
   &nbsp;&nbsp;&nbsp;&nbsp;-**Duplicate Removal**: Identifies and removes duplicate records.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;-**Null Handling**: Converts empty fields ('') to NULL where applicable.<br>
-</p>
 
-## HOW TO USE
+## How To Use
 
 ```bash
 #1) Clone the repository
