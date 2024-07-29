@@ -145,7 +145,7 @@ ALTER TABLE NYC_housing_units
 SHOW COLUMNS FROM nyc_housing_units;
 
 
--- Change Y/N to Yes/Non in only_ext_affordability column
+-- Change Y/N to Yes/No in only_ext_affordability column
 
 SELECT 
 	DISTINCT(only_ext_affordability),
